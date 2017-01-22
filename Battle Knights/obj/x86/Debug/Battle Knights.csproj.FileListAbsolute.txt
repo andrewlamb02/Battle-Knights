@@ -1,0 +1,52 @@
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Battle Knights.exe
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Battle Knights.pdb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\obj\x86\Debug\Battle Knights.exe
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\obj\x86\Debug\Battle Knights.pdb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\obj\x86\Debug\Battle Knights.csprojResolveAssemblyReference.cache
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowAttackedDown.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowAttackedLeft.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowAttackedRight.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowAttackedUp.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowDown.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowLeft.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowRight.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\bowUp.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\CursorGreen.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\CursorRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\CursorYellow.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\Goblin.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\healthbar.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterDown.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterLeft.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterRight.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterUp.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\MoveArea.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Arial.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightDown.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightLeft.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightRight.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightUp.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordDown.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordLeft.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordRight.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordUp.xnb
