@@ -77,12 +77,12 @@ namespace Battle_Knights
             font = Content.Load<SpriteFont>(@"Arial");
             cursor = new Cursor(cursorRectangle, this);
             cursor.cursorRectangle = new Rectangle(380, 220, 20, 20);
-            //knight = new Knight(new Vector2(100, 100), "footman", "Blue", this);
-            //knight2 = new Knight(new Vector2(200,200), "archer", "Blue", this);
+            knight = new Knight(new Vector2(100, 100), "Knight", "Blue", this);
+            //knight2 = new Knight(new Vector2(200,200), "Hunter", "Blue", this);
             //knight3 = new Knight(knightRectangle, knightTexture, this);
             //knight3.rectangle = new Rectangle(0, 100, 31, 31);
-            redKnight = new Knight(new Vector2(300, 400), "footman", "Red", this);
-            //redKnight2 = new Knight(new Vector2(400, 400), "footman", "Red", this);
+            redKnight = new Knight(new Vector2(400, 300), "Knight", "Red", this);
+            //redKnight2 = new Knight(new Vector2(400, 400), "Hunter", "Red", this);
             //redKnight3 = new Knight(knightRectangle, knightTexture, this);
             //redKnight3.rectangle = new Rectangle(0, 100, 31, 31);
             turnPhase = 0;
@@ -92,7 +92,7 @@ namespace Battle_Knights
             knightList.Add(redKnight);
             //knightList.Add(redKnight2);
             //knightList.Add(redKnight3);
-            //knightList.Add(knight);
+            knightList.Add(knight);
             //knightList.Add(knight2);
             //knightList.Add(knight3);
             intersects = false;

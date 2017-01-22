@@ -30,6 +30,7 @@ namespace Battle_Knights
         public String direction;
         public int verticleHeight;
         public int verticleWidth;
+        public String weapon;
         public String weaponTex;
         public String tex;
         public bool moving;
@@ -59,21 +60,23 @@ namespace Battle_Knights
             yMoved = false;
             attacking = false;
             direction = "Down";
-            if (type == "archer")
+            if (type == "Hunter")
             {
-                rectangle = new Rectangle((int)rec.X, (int)rec.Y, 48, 44);
+                rectangle = new Rectangle((int)rec.X, (int)rec.Y, 47, 43);
                 center = new Rectangle(rectangle.X + (rectangle.Width / 2) - speed, rectangle.Y + (rectangle.Height / 2) - speed, speed * 2, speed * 2);
                 hand = new Rectangle(rectangle.X + 2, rectangle.Y + 18, 0, 0);
                 weaponRectangle = new Rectangle(hand.X - 38 / 2, hand.Y, 25, 38);
+                weapon = "bow";
                 attackRange = 300;
                 speed = 2;
             }
-            if (type == "footman")
+            if (type == "Knight")
             {
-                rectangle = new Rectangle((int)rec.X, (int)rec.Y, 60, 40);
+                rectangle = new Rectangle((int)rec.X, (int)rec.Y, 59, 39);
                 center = new Rectangle(rectangle.X + (rectangle.Width / 2), rectangle.Y + (rectangle.Height / 2), speed * 2, speed * 2);
                 hand = new Rectangle(rectangle.X + 3 , rectangle.Y + 19, 20, 20);
                 weaponRectangle = new Rectangle(hand.X - 61 / 2, hand.Y, 17, 61);
+                weapon = "sword";
                 attackRange = 50;
                 speed = 2;
             }
@@ -82,7 +85,7 @@ namespace Battle_Knights
             weaponHeight = weaponRectangle.Height;
             weaponWidth = weaponRectangle.Width;
             distanceToHandX = hand.X - rectangle.X;
-            distanceToHandY = hand.Y - rectangle.X;
+            distanceToHandY = hand.Y - rectangle.Y;
         }
         public void Update()
         {
@@ -95,16 +98,8 @@ namespace Battle_Knights
                 Attack();
             }
             center = new Rectangle(rectangle.X + (rectangle.Width / 2), rectangle.Y + (rectangle.Height / 2), speed*2, speed * 2);
-            if (type == "archer")
-            {
-                weaponTex = @"images\bow" + attacked + direction;
-                tex = @"images\Hunter" + direction;
-            }
-            if (type == "footman")
-            {
-                weaponTex = @"images\sword" + attacked + direction;
-                tex = @"images\Knight" + direction;
-            }
+            tex = @"images\" + type + direction + team;
+            weaponTex = @"images\" + weapon + attacked + direction;
             weaponTexture = manager.Content.Load<Texture2D>(weaponTex);
             texture = manager.Content.Load<Texture2D>(tex);
             if (direction == "Down")
