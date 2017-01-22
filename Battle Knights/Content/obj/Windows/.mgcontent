@@ -4,6 +4,50 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowAttackedDown.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowAttackedLeft.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowAttackedRight.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowAttackedUp.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowDown.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowLeft.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowRight.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowUp.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/CursorGreen.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/CursorRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/CursorYellow.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/Goblin.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/healthbar.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/MoveArea.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightRight.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordDown.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordLeft.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordRight.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordUp.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightDownBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightDownRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightLeftBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightLeftRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightRightBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightRightRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightUpBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/KnightUpRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterDownBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterLeftBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterRightBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterUpBlue.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterDownRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterLeftRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterRightRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterUpRed.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordAttackedDown.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordAttackedLeft.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordAttackedRight.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/swordAttackedUp.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Arial.spritefont</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterDown.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterLeft.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterRight.png</File>
+    <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/HunterUp.png</File>
     <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle Knights/Content/Images/bowAttackedDown.png</File>
     <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle Knights/Content/Images/bowAttackedLeft.png</File>
     <File>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle Knights/Content/Images/bowAttackedRight.png</File>

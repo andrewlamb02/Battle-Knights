@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle Knights/Content/Images/bowAttackedRight.png</SourceFile>
-  <SourceTime>2016-11-18T06:26:13.9820391-05:00</SourceTime>
-  <DestFile>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle Knights/Content/bin/Windows/Images/bowAttackedRight.xnb</DestFile>
-  <DestTime>2016-11-18T16:48:46.1581307-05:00</DestTime>
+  <SourceFile>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/Images/bowAttackedRight.png</SourceFile>
+  <SourceTime>2017-01-22T04:05:17.9585477-05:00</SourceTime>
+  <DestFile>C:/Users/andre/OneDrive/Documents/projects/Battle Knights 3/Battle Knights/Battle-Knights/Battle Knights/Content/bin/Windows/Images/bowAttackedRight.xnb</DestFile>
+  <DestTime>2017-01-22T04:05:24.966735-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -102,3 +102,23 @@ C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battl
 C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\obj\x86\Debug\Battle Knights.csprojResolveAssemblyReference.cache
 C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\obj\x86\Debug\Battle Knights.exe
 C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\obj\x86\Debug\Battle Knights.pdb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightDownBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightDownRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightLeftBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightLeftRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightRightBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightRightRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightUpBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\KnightUpRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterDownBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterLeftBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterRightBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterUpBlue.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterDownRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterLeftRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterRightRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\HunterUpRed.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordAttackedDown.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordAttackedLeft.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordAttackedRight.xnb
+C:\Users\andre\OneDrive\Documents\projects\Battle Knights 3\Battle Knights\Battle-Knights\Battle Knights\bin\Windows\x86\Debug\Content\Images\swordAttackedUp.xnb

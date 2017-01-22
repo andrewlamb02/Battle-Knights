@@ -106,7 +106,7 @@ namespace Battle_Knights
             {
                 hand = new Rectangle(rectangle.X + distanceToHandX, rectangle.Y + distanceToHandY, 0, 0);
                 weaponRectangle = new Rectangle(hand.X - weaponRectangle.Width / 2, hand.Y, weaponWidth, weaponHeight);
-                healthBar = new Rectangle(rectangle.X, rectangle.Y + rectangle.Height, health * rectangle.Width / maxHealth, 5);
+                healthBar = new Rectangle(rectangle.X, rectangle.Y, health * rectangle.Width / maxHealth, 5);
                 rectangle.Height = verticleHeight;
                 rectangle.Width = verticleWidth;
             }
@@ -114,7 +114,7 @@ namespace Battle_Knights
             {
                 hand = new Rectangle(rectangle.X + rectangle.Width - distanceToHandX, rectangle.Y + rectangle.Height - distanceToHandY, 0, 0);
                 weaponRectangle = new Rectangle(hand.X - weaponWidth / 2, hand.Y - weaponHeight, weaponWidth, weaponHeight);
-                healthBar = new Rectangle(rectangle.X, rectangle.Y - 5, health * rectangle.Width / maxHealth, 5);
+                healthBar = new Rectangle(rectangle.X, rectangle.Y, health * rectangle.Width / maxHealth, 5);
                 rectangle.Height = verticleHeight;
                 rectangle.Width = verticleWidth;
             }
@@ -122,7 +122,7 @@ namespace Battle_Knights
             {
                 hand = new Rectangle(rectangle.X + rectangle.Width - distanceToHandY, rectangle.Y + distanceToHandX, 0, 0);
                 weaponRectangle = new Rectangle(hand.X - weaponHeight, hand.Y - weaponWidth / 2, weaponHeight, weaponWidth);
-                healthBar = new Rectangle(rectangle.X - 5, rectangle.Y, 5, health * rectangle.Height / maxHealth);
+                healthBar = new Rectangle(rectangle.X, rectangle.Y, 5, health * rectangle.Height / maxHealth);
                 rectangle.Height = verticleWidth;
                 rectangle.Width = verticleHeight;
             }
@@ -130,7 +130,7 @@ namespace Battle_Knights
             {
                 hand = new Rectangle(rectangle.X + distanceToHandY, rectangle.Y + rectangle.Height - distanceToHandX, 0, 0);
                 weaponRectangle = new Rectangle(hand.X, hand.Y - weaponWidth / 2, weaponHeight, weaponWidth);
-                healthBar = new Rectangle(rectangle.X + rectangle.Width, rectangle.Y, 5, health * rectangle.Height / maxHealth);
+                healthBar = new Rectangle(rectangle.X, rectangle.Y, 5, health * rectangle.Height / maxHealth);
                 rectangle.Height = verticleWidth;
                 rectangle.Width = verticleHeight;
             }
@@ -202,35 +202,16 @@ namespace Battle_Knights
         }
         public void Attack()
         {
-            if (manager.distanceToWaypoint > attackRange || manager.distanceToWaypoint > -attackRange)
-            {
-                if (manager.waypointRectangle.Y < rectangle.Y)//manager.yDistanceToWaypoint <= -speed)
-                {
-                    rectangle.Y += speed;
-                    direction = "Down";
-                }
-                if (manager.waypointRectangle.Y > rectangle.Y)
-                {
-                    rectangle.Y -= speed;
-                    direction = "Up";
-                }
-                if (manager.waypointRectangle.X < rectangle.X)
-                {
-                    rectangle.X -= speed;
-                    direction = "Left";
-                }
-                if (manager.waypointRectangle.X > rectangle.X)
-                {
-                    rectangle.X += speed;
-                    direction = "Right";
-                }
-            }
-            else
+            if (manager.distanceToWaypoint < attackRange)
             {
                 enemy.health = enemy.health - 25;
                 moved = true;
                 attacking = false;
                 attacked = "Attacked";
+            }
+            else
+            {
+                Move();
             }
         }
     }

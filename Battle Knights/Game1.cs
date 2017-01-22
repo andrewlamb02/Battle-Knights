@@ -78,11 +78,11 @@ namespace Battle_Knights
             cursor = new Cursor(cursorRectangle, this);
             cursor.cursorRectangle = new Rectangle(380, 220, 20, 20);
             knight = new Knight(new Vector2(100, 100), "Knight", "Blue", this);
-            //knight2 = new Knight(new Vector2(200,200), "Hunter", "Blue", this);
+            knight2 = new Knight(new Vector2(200,200), "Hunter", "Blue", this);
             //knight3 = new Knight(knightRectangle, knightTexture, this);
             //knight3.rectangle = new Rectangle(0, 100, 31, 31);
             redKnight = new Knight(new Vector2(400, 300), "Knight", "Red", this);
-            //redKnight2 = new Knight(new Vector2(400, 400), "Hunter", "Red", this);
+            redKnight2 = new Knight(new Vector2(400, 400), "Hunter", "Red", this);
             //redKnight3 = new Knight(knightRectangle, knightTexture, this);
             //redKnight3.rectangle = new Rectangle(0, 100, 31, 31);
             turnPhase = 0;
@@ -90,10 +90,10 @@ namespace Battle_Knights
             playersTurn = "Blue";
             knightList = new List<Knight>();
             knightList.Add(redKnight);
-            //knightList.Add(redKnight2);
+            knightList.Add(redKnight2);
             //knightList.Add(redKnight3);
             knightList.Add(knight);
-            //knightList.Add(knight2);
+            knightList.Add(knight2);
             //knightList.Add(knight3);
             intersects = false;
             time = 0;
@@ -113,13 +113,6 @@ namespace Battle_Knights
         }
         public void SetTextures()
         {
-            for (int i = 0; i < knightList.Count; i++)
-            {
-                if (knightList[i].type == "footman")
-                {
-                    knightList[i].texture = knightTexture;
-                }
-            }
             cursor.cursorTexture = cursorYellowTexture;
         }
 
@@ -147,6 +140,10 @@ namespace Battle_Knights
             }
             if (toRemove != -1)
             {
+                if (unit > toRemove)
+                {
+                    unit -= 1;
+                }
                 knightList.RemoveAt(toRemove);
                 toRemove = -1;
             }
@@ -206,7 +203,7 @@ namespace Battle_Knights
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Orange);
+            GraphicsDevice.Clear(Color.White);
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
@@ -216,11 +213,10 @@ namespace Battle_Knights
             }
             for (int i = 0; i < knightList.Count; i++)
             {
+                spriteBatch.Draw(knightList[i].weaponTexture, knightList[i].weaponRectangle, knightList[i].color);
                 spriteBatch.Draw(knightList[i].texture, knightList[i].rectangle, knightList[i].color);
                 spriteBatch.Draw(healthBarTexture, knightList[i].healthBar, Color.Red);
                 //spriteBatch.DrawString(font, "" + knightList[i].health, new Vector2(knightList[i].healthBar.X, knightList[i].healthBar.Y), Color.Black);
-                spriteBatch.Draw(knightList[i].weaponTexture, knightList[i].weaponRectangle, knightList[i].color);
-                spriteBatch.Draw(healthBarTexture, knightList[i].hand, Color.Blue);
             }
             spriteBatch.Draw(cursor.cursorTexture, cursor.cursorRectangle, Color.White);
             testCount += 1;
@@ -229,9 +225,13 @@ namespace Battle_Knights
                 testS = (xDistanceToWaypoint < knightList[0].speed) + "," + (xDistanceToWaypoint > -knightList[0].speed);
                 testCount = 0;
             }
-            spriteBatch.DrawString(font, "" + knightList[0].hand.X + "," + knightList[0].hand.Y, Vector2.Zero, Color.Black);
-            Vector2 _tempVec = new Vector2(0, 15);
-            spriteBatch.DrawString(font, "" + knightList[0].rectangle.X + "," + knightList[0].rectangle.Y, _tempVec, Color.Black);
+            //spriteBatch.DrawString(font, "" + knightList, Vector2.Zero, Color.Black);
+            /*(Vector2 _tempVec = new Vector2(0, 0);
+            for (int i = 0; i < knightList.Count; i++)
+            {
+                spriteBatch.DrawString(font, "" + knightList[i], _tempVec, Color.Black);
+                _tempVec.Y += 15;
+            }*/
             //spriteBatch.DrawString(font, "" + time, Vector2.Zero, Color.Black);
             //spriteBatch.DrawString(font, "" + knightList[3].health, Vector2.Zero, Color.Black);
             spriteBatch.End();

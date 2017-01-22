@@ -67,24 +67,11 @@
     <Content Include="Content\images\CursorYellow.png" />
     <Content Include="Content\images\Goblin.png" />
     <Content Include="Content\images\healthbar.png" />
-    <Content Include="Content\images\HunterDown.png" />
-    <Content Include="Content\images\HunterLeft.png" />
-    <Content Include="Content\images\HunterRight.png" />
-    <Content Include="Content\images\HunterUp.png" />
-    <Content Include="Content\images\knight.png" />
-    <Content Include="Content\images\KnightDownBlue.png" />
-    <Content Include="Content\images\KnightDownRed.png" />
-    <Content Include="Content\images\KnightLeftBlue.png" />
-    <Content Include="Content\images\KnightLeftRed.png" />
-    <Content Include="Content\images\KnightRightBlue.png" />
-    <Content Include="Content\images\KnightRightRed.png" />
-    <Content Include="Content\images\KnightUpBlue.png" />
-    <Content Include="Content\images\KnightUpRed.png" />
+    <Content Include="Content\images\HunterDownRed.png" />
+    <Content Include="Content\images\HunterLeftRed.png" />
+    <Content Include="Content\images\HunterRightRed.png" />
+    <Content Include="Content\images\HunterUpRed.png" />
     <Content Include="Content\images\MoveArea.png" />
-    <Content Include="Content\images\swordDown.png" />
-    <Content Include="Content\images\swordLeft.png" />
-    <Content Include="Content\images\swordRight.png" />
-    <Content Include="Content\images\swordUp.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>

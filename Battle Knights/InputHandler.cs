@@ -71,6 +71,7 @@ namespace Battle_Knights
                     {
                         if (manager.cursor.cursorRectangle.Intersects(manager.knightList[j].rectangle) && manager.knightList[manager.unit].team != manager.knightList[j].team)
                         {
+                            manager.waypointRectangle = manager.knightList[j].rectangle;
                             manager.knightList[manager.unit].attacking = true;
                             manager.knightList[manager.unit].enemy = manager.knightList[j];
                         }
